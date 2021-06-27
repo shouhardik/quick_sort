@@ -17,7 +17,7 @@ int partition(int arr[],int l,int r){
             swap(arr,i,j);
         }
     }
-    swap(arr,i+1,r);
+    swap(arr,i+1,r);// swapping with the pivot element, all elements before are less than it
     return i+1;
 }
 
